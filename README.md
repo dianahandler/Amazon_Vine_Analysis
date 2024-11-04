@@ -1,5 +1,5 @@
 ## Overview
-The purpose of this challenge was to analyze Amazon reviews written by members of the paid Amazon Vine program. I extracted a grocery dataset with reviews to specific products. I then utilized PySpark to extract and transform the dataset and connect to an AWS RDW instance. The transformed data was then loaded into pgAdmin. Pyspark allows us to determine if there exists any bias towards favorable reviews from vine members in our dataset. 
+The purpose of this challenge was to analyze Amazon reviews written by members of the paid Amazon Vine program. I extracted a grocery dataset with reviews to specific products. I then utilized PySpark to extract and transform the dataset and connect to an AWS RDW instance. The transformed data was then loaded into pgAdmin. Pyspark allows us to determine if there exists any bias towards favorable reviews from vine members in our dataset  
 
 ## Results
 * How many vine reviews and non-vine reviews were there?
