@@ -1,6 +1,34 @@
 ## Overview
 The purpose of this challenge was to analyze Amazon reviews written by members of the paid Amazon Vine program. I extracted a grocery dataset with reviews to specific products. I then utilized PySpark to extract and transform the dataset and connect to an AWS RDW instance. The transformed data was then loaded into pgAdmin. Pyspark allows us to determine if there exists any bias towards favorable reviews from vine members in our dataset  
 
+Project Summary: Analysis of Amazon Product Reviews  
+
+## Part 1: ETL Process on Amazon Product Reviews  
+- Successfully extracted an Amazon Review dataset as a DataFrame.
+- Transformed the dataset into four distinct DataFrames, ensuring all required columns were correctly aligned.
+- Loaded all four DataFrames into their respective tables in pgAdmin for further analysis.
+
+  
+## Part 2: Bias Determination of Vine Reviews  
+- Created a DataFrame/table for the vine_table data.
+- Filtered the data to include entries with 20 or more total votes.
+- Further refined the dataset to include entries where the percentage of helpful votes is 50% or higher.
+- Segregated the data into two categories: Vine reviews and non-Vine reviews.
+- Calculated key metrics: total number of votes, number of 5-star reviews, and the percentage of 5-star reviews for both categories.
+
+  
+## Part 3: Structure, Organization, and Formatting
+- Developed a comprehensive written analysis featuring:
+-  A clear title with multiple sections.
+-  Well-defined headings and subheadings for each section.
+-  Properly formatted images and code references to enhance clarity.
+
+  
+## Part 4: Analysis and Conclusions
+- Clearly defined the purpose of the analysis.
+- Addressed all three research questions in the results section.
+- Concluded whether bias exists in the Vine reviews, supported by the analytical results, and provided an additional recommendation based on findings.
+
 ## Results
 * How many vine reviews and non-vine reviews were there?
   There were a total of 28,235 reviews
