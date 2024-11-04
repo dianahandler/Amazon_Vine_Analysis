@@ -1,5 +1,4 @@
 # Amazon_Vine_Analysis_ETL_Bias_in_PostgreSQL
-This project involved performing an ETL process on an Amazon Review dataset, transforming it into four DataFrames, and loading them into PostgreSQL. It analyzed bias in Vine reviews by filtering data based on votes and helpfulness, calculating key metrics. The analysis was well-structured, addressing key questions and concluding on the presence of bias with recommendations.
 
 ## Overview
 The purpose of this challenge was to analyze Amazon reviews written by members of the paid Amazon Vine program. I extracted a grocery dataset with reviews to specific products. I then utilized PySpark to extract and transform the dataset and connect to an AWS RDW instance. The transformed data was then loaded into pgAdmin. Pyspark allows us to determine if there exists any bias towards favorable reviews from vine members in our dataset  
